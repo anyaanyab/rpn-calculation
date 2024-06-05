@@ -39,7 +39,7 @@ function rpnevaluation(expression) {
                 case '/':
                     stack.push(num1 / num2);
                     break;
-                // If the user enters an invalid operator, and exception is thrown
+                // If the user enters an invalid operator, an exception is thrown
                 default:
                     throw new Error('The expression has an invalid operator!');
             }
