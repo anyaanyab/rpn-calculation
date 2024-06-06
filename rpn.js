@@ -17,9 +17,9 @@ function rpnevaluation(expression) {
         // But if the token is an operator, use pop() function of a stack to pop two numbers from the stack
         // Next, apply the identified operator to the numbers, and with the push() function push the result to the stack
         else {
-            // One number is poped from the stack
+            // One number is popped from the stack
             const num2 = stack.pop();
-            // Second number is poped from the stack
+            // Second number is popped from the stack
             const num1 = stack.pop();
             // Define operators and their corresponding functions
             switch (token) {
